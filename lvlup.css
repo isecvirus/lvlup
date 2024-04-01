@@ -1,0 +1,43 @@
+.level-458aa88bfc22bf7f52f48450274c894f {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+}
+.level-458aa88bfc22bf7f52f48450274c894f span {
+    color: #cfcfcf;
+    text-shadow: 0 0 3px #cfcfcf;
+}
+.level-458aa88bfc22bf7f52f48450274c894f progress {
+    background: transparent;
+    width: 100%;
+    min-width: 75px;
+    max-width: 100%;
+    height: 10px;
+    margin: 2.5px;
+}
+.level-458aa88bfc22bf7f52f48450274c894f progress[value="100"] + span {
+    color: var(--theme);
+    text-shadow: 0 0 3px var(--theme);
+}
+
+.level-458aa88bfc22bf7f52f48450274c894f progress::-webkit-progress-bar {
+    background: transparent;
+    border: 1px solid #2222229d;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.level-458aa88bfc22bf7f52f48450274c894f progress::-moz-progress-bar {
+    background: transparent;
+    border: 1px solid #2222229d;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.level-458aa88bfc22bf7f52f48450274c894f progress::-webkit-progress-value {
+    border-radius: 10px;
+    background-color: var(--theme);
+}
